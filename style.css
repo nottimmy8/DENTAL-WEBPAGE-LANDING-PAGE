@@ -1,0 +1,383 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.alert {
+  width: 100%;
+  height: 30px;
+  background: #2e3192;
+}
+
+.navBar {
+  margin: 0 auto;
+  padding: 35px;
+  width: 100%;
+  /* max-width: 90vw; */
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.navItem:nth-child(1) {
+  flex: 1;
+  text-align: left;
+}
+
+.navItem:nth-child(2) {
+  flex: 2;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navItem:nth-child(3) {
+  display: flex;
+  text-align: right;
+  gap: 1rem;
+}
+
+.Banner {
+  margin: 0% auto;
+  width: 100%;
+  height: 550px;
+  background: url(/Banner.img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* service */
+.service {
+  width: 100%;
+  min-height: 600px;
+}
+
+.serviceCon {
+  max-width: 80vw;
+  height: 540px;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serviceBox {
+  width: 33%;
+  height: 100%;
+  background-color: #fff;
+  padding: 0px 5px;
+}
+.serviceBox:nth-child(3) {
+  background: #dd8d8d8e;
+}
+
+.serviceimg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.serviceimg img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.servicetxt {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.servicetxt h2 {
+  font-family: Catamaran;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e2d78;
+}
+
+.servicetxt p {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 17px;
+  color: #8a8a8a;
+}
+
+.servicetxt h5 {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #1e2d78;
+}
+
+.servicetxt li {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8a8a8a;
+  margin-bottom: 15px;
+}
+
+/*  */
+.widgetWrap {
+  width: 100%;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 70px 0px;
+  /* height: 590px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  row-gap: 4rem;
+}
+
+.widgetItem {
+  width: 365px;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 15px;
+}
+
+.widgetTxt h2 {
+  font-family: Catamaran;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  color: #1e2d78;
+}
+
+.widgetTxt p {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  color: #8a8a8a;
+  margin-top: 9px;
+}
+
+/* FEATURES */
+.features {
+  margin: 70px auto;
+  display: flex;
+  /* padding: 70px 0px; */
+}
+
+.featureBox {
+  width: 50%;
+  height: 510px;
+}
+
+.featureBox:nth-child(1) {
+  background: #eef7ff;
+  padding: 90px;
+}
+
+.featureTxt {
+  width: 450px;
+}
+
+.featureBox .featureTxt h5 {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 1.690000057220459px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #dd3333;
+}
+
+.featureBox .featureTxt h3 {
+  font-family: Catamaran;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e2d78;
+}
+
+.featureBox .featureTxt p {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #656565;
+}
+
+.featureBox:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  object-position: center;
+}
+
+/* PROFILE */
+
+.profile {
+  width: 100%;
+  min-height: 600px;
+  text-align: center;
+}
+
+.profile h2 {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 1.690000057220459px;
+  text-align: center;
+  color: #dd3333;
+  text-transform: uppercase;
+}
+
+.profile h1 {
+  font-family: Catamaran;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1e2d78;
+}
+.profile p {
+  font-family: Open Sans;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8a8a8a;
+}
+
+.profileBox {
+  width: 80vw;
+  margin: 0% auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileBox1 {
+  width: 350px;
+  height: 450px;
+  /* border: 1px solid #656565; */
+  background: #fff;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  position: relative;
+}
+
+.image span {
+  background: #2e3192;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  position: absolute;
+  top: -10px;
+  right: 100px;
+}
+
+.profileBox1 h1 {
+  font-family: Catamaran;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1e2d78;
+}
+
+.profileBox1 p {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8a8a8a;
+}
+
+.profileBox1 h2 {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 1.690000057220459px;
+  text-align: center;
+  color: #dd3333;
+}
+
+/* DISCOUNT */
+.Discount {
+  margin-top: 50px;
+  width: 100%;
+  padding: 50px 0px;
+  text-align: center;
+  background: #2e3192;
+}
+
+.Discount h1 {
+  font-family: Catamaran;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+.Discount h1 span {
+  color: #f4572e;
+}
+
+.Discount p {
+  font-family: Open Sans;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+/*  */
+.Specialist {
+  width: 100%;
+  height: 90vh;
+  background: #fff2f2;
+}
